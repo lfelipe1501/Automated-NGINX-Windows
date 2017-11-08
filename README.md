@@ -16,7 +16,9 @@ This repository is created in order to share services automation tools for nginx
 
 - Locate and select the **.exe** files copy and paste on the path where nginx is installed.
 
-![Nginx-Windows](https://lh6.googleusercontent.com/6vIa4e4h6DxErBZG_zBo8eV57ho_rU6YJ55FaxoIZ8B84sjmv0o4OEIwePPHwiEYx1o-xEyKAwCFwQ=w1575-h951-rw)
+![Nginx-Windows](https://drive.google.com/file/d/13z83pwZt_BJs2juEYjdwUdL5Ts8lZLlR/view?usp=sharing)
+
+![Nginx-Windows](https://thumb.ibb.co/g7Qakw/pg3_Ef9_Hka_Knt_KLQj_R_Lb_A67_ZLg0u_Qv_Go_ASs_AFL0f2gr_U5_JNa_I4_WJ8_Vb_Eom8_w1200_h630_p.png)
 
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
