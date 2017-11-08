@@ -38,6 +38,9 @@ If all goes well, it should look like this:
 
 3. Now you can execute from any place in your console the commands to start, restart, stop php-cgi and nginx
 
+   | In cgi service    | The config used is: 127.0.0.1:9000 |
+   | ----------------- |:----------------------------------:|
+
 ![Windows-nginx](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Capture.PNG)
 
 ### Contact / Social Media
