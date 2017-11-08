@@ -16,15 +16,13 @@ This repository is created in order to share services automation tools for nginx
 
 - Locate and select the **.exe** files copy and paste on the path where nginx is installed.
 
-![Nginx-Windows](https://drive.google.com/file/d/13z83pwZt_BJs2juEYjdwUdL5Ts8lZLlR/view?usp=sharing)
-
-![Nginx-Windows](https://thumb.ibb.co/g7Qakw/pg3_Ef9_Hka_Knt_KLQj_R_Lb_A67_ZLg0u_Qv_Go_ASs_AFL0f2gr_U5_JNa_I4_WJ8_Vb_Eom8_w1200_h630_p.png)
+![Nginx-Windows](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Install1.png)
 
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
 ### Remember to run the console in Administrator mode
 
-![CMD-Windows-Admin](https://lh6.googleusercontent.com/7AuAwcFzKS2kqp2GhkX8Bmvjj1HNswxZTC5WoaV69UxBZCbUTrQvbajXIk0_He9sBmrorIe9_HOg8Q=w1575-h951)
+![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
 
 Run the following commands:
 ```bat
@@ -36,11 +34,11 @@ setx -m path "%path%;%php_home%;%nginx_home%"
 ```
 If all goes well, it should look like this:
 
-![Windows-enviroment](https://lh6.googleusercontent.com/lZrPLjZ_o1xaF7TShB8D-D9Px846FhT5VuUpQhjaPN8Vw581yfe0STdindHYUEcQNjnjeQv9xrOIQw=w1575-h951-rw)
+![Windows-enviroment](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/path.PNG)
 
 3. Now you can execute from any place in your console the commands to start, restart, stop php-cgi and nginx
 
-![Windows-nginx](https://lh6.googleusercontent.com/Jjv4mvo2V5KRB01TQN2VYegX9lipx59EAko0TN4NFG_ZgyipHo8MtJSXRNIQpZDM271DArhDGKSLig=w1575-h951-rw)
+![Windows-nginx](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Capture.PNG)
 
 ### Contact / Social Media
 
