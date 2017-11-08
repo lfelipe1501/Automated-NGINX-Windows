@@ -9,7 +9,7 @@ This repository is created in order to share services automation tools for nginx
 
 1. Check out a clone of this repo to a location of your choice, such as:
 
- `git clone https://github.com/lfelipe1501/Automated-NGINX-Windows.git`
+- `git clone https://github.com/lfelipe1501/Automated-NGINX-Windows.git`
 
 2. To install and use the services for nginx and php-cgi you need to follow the following steps:
 
