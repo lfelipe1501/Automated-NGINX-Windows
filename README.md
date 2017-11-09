@@ -21,6 +21,10 @@ This repository is created in order to share services automation tools for nginx
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
 ### Remember to run the console in Administrator mode
+<<<<<<< HEAD
+=======
+--------
+>>>>>>> d39aeb204283a6e9231f982a6c1e141f14600ff5
 ![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
 
 Run the following commands:
@@ -37,8 +41,8 @@ If all goes well, it should look like this:
 
 3. Now you can execute from any place in your console the commands to start, restart, stop php-cgi and nginx
 
-   | In cgi service    | The config used is: 127.0.0.1:9000 |
-   | ----------------- |:----------------------------------:|
+   | In **cgi** service the config used is: 127.0.0.1:9000 |
+   | ----------------------------------------------------- |
 
 ![Windows-nginx](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Capture.PNG)
 
