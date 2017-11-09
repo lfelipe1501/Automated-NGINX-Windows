@@ -21,10 +21,6 @@ This repository is created in order to share services automation tools for nginx
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
 ### Remember to run the console in Administrator mode
-<<<<<<< HEAD
-=======
---------
->>>>>>> d39aeb204283a6e9231f982a6c1e141f14600ff5
 ![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
 
 Run the following commands:
