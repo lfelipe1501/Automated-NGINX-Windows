@@ -24,7 +24,7 @@ This repository is created in order to share services automation tools for nginx
 ![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
 
 Run the following commands:
-```bat
+```Batch
 setx PHP_HOME "C:\php"
 setx NGINX_HOME "C:\nginx"
 
