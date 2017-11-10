@@ -18,6 +18,10 @@ This repository is created in order to share services automation tools for nginx
 
 ![Nginx-Windows](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Install1.png)
 
+These executables were created with the software [bat2exe converter](http://www.f2ko.de/es/b2e.php) of [F2KO SOFTWARE](http://www.f2ko.de), please take into account f2ko's recommendations for the executables created with your software:
+
+*Some antivirus programs automatically flag the exe files that this application creates as malware. If you encounter a false positive, in which a converted exe is erroneously recognized as malware, please contact the offending antivirus vendor for further assistance.*
+
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
 ### Remember to run the console in Administrator mode
