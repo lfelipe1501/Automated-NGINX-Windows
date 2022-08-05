@@ -24,16 +24,26 @@ These executables were created with the software [bat2exe converter](http://www.
 
 - Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
 
-### Remember to run the console in Administrator mode
+### Remember to run the PowerShell in Administrator mode
 ![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
 
 Run the following commands:
-```Batch
-setx PHP_HOME "C:\php"
-setx NGINX_HOME "C:\nginx"
+```pwsh
 
-setx path "%path%;%php_home%;%nginx_home%"
-setx -m path "%path%;%php_home%;%nginx_home%"
+# Set user VARIABLES
+setx PHP_HOME "D:\serverlocal\php"
+setx NGINX_HOME "D:\serverlocal\nginx"
+
+# Set System Global VARIABLES
+setx -m PHP_HOME "D:\serverlocal\php"
+setx -m NGINX_HOME "D:\serverlocal\nginx"
+
+# Set user PATH VARIABLES
+[Environment]::SetEnvironmentVariable("path", $env:path + ";%PHP_HOME%;%NGINX_HOME%", "User")
+
+# Set System Global PATH VARIABLES
+[Environment]::SetEnvironmentVariable("path", $env:path + ";%PHP_HOME%;%NGINX_HOME%", "Machine")
+
 ```
 If all goes well, it should look like this:
 
