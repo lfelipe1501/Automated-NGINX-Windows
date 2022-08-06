@@ -16,7 +16,7 @@ This repository is created in order to share services automation tools for nginx
 2. To install and use the services for nginx and php-cgi you need to follow the following steps:
 
 
-- Locate and select the **.bat** files in the folder **_MANAGER_** copy and paste on the path where nginx is installed.
+- Get and copy all the **files** in the folder **_MANAGER_** after this paste them inside the installation folder of your nginx binary.
 
 ![Nginx-Windows](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Install1.png)
 
