@@ -16,15 +16,11 @@ This repository is created in order to share services automation tools for nginx
 2. To install and use the services for nginx and php-cgi you need to follow the following steps:
 
 
-- Locate and select the **.exe** files in the folder **_Executable_** copy and paste on the path where nginx is installed.
+- Locate and select the **.bat** files in the folder **_MANAGER_** copy and paste on the path where nginx is installed.
 
 ![Nginx-Windows](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Install1.png)
 
-These executables were created with the software [bat2exe converter](http://www.f2ko.de/es/b2e.php) of [F2KO SOFTWARE](http://www.f2ko.de), please take into account f2ko's recommendations for the executables created with your software:
-
-**_Some antivirus programs automatically flag the exe files that this application creates as malware. If you encounter a false positive, in which a converted exe is erroneously recognized as malware, please contact the offending antivirus vendor for further assistance._**
-
-- Make sure you have the correct path of your PHP and NGINX installation, you must use the following commands to add the PATH in your environment variables and thus ensure the proper functioning of the services:
+- Make sure you have the correct path of your php and nginx services inside the windows variables, you can also use these commands to add them by adjusting the paths of the binaries on your computer:
 
 ### Remember to run the PowerShell in Administrator mode
 ![CMD-Windows-Admin](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/cmdasadmin.png)
@@ -53,8 +49,11 @@ If all goes well, it should look like this:
 
 3. Now you can execute from any place in your console the commands to start, restart, stop php-cgi and nginx
 
-   | In **cgi** service the config used is: 127.0.0.1:9000 |
-   | ----------------------------------------------------- |
+| In **cgi** service the config used is: 127.0.0.1:900x |
+| ----------------------------------------------------- |
+
+> *in the bat script 6 php cgi processes are created for the nginx, you can edit the script in the _restart and _start options to create more or decrease these processes.*
+
 
 ![Windows-nginx](https://raw.githubusercontent.com/lfelipe1501/lfelipe-projects/master/nginx-windows/Capture.PNG)
 
